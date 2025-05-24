@@ -25,8 +25,8 @@ export class SidebarControl {
 
     const toggler = this.ngwMap.createToggleControl({
       html: {
-        on: makeIcon(rulerIcon, { width: 512, height: 512 }),
-        off: makeIcon(rulerIcon, { width: 512, height: 512 }),
+        on: makeIcon(rulerIcon, { width: 10240, height: 10240 }),
+        off: makeIcon(rulerIcon, { width: 10240, height: 10240 }),
       },
       addClassOff: 'scale-bar-disable',
       status,
